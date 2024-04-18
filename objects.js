@@ -64,7 +64,8 @@ console.log(getAverageScore(students))
  The age method should return the current age of the car based on the current year and the car's year property.*/
 
  function addNewMethod(car){
-  car.age = (2024 - car.year) 
+  let currentYear = new Date().getFullYear()
+  car.age = (currentYear - car.year) 
   return car
  }
 
@@ -78,3 +79,4 @@ console.log(getAverageScore(students))
 };
 
 console.log(addNewMethod(car))
+car.displayInfo()
