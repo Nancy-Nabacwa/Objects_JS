@@ -12,7 +12,6 @@ const people = [
   ];
 console.log(sortObjectsByAge(people))
 
-
 /* No.2 Write a function that takes an array of objects, where each object represents a product with a name, price, and category property. 
 The function should return an object that groups the products by their categories, 
 with the category names as keys and the arrays of products as values */
